@@ -1,0 +1,4 @@
+dev:
+  driver: postgres
+  open: "user=${POSTGRES_USER} password=${POSTGRES_PASSWORD} dbname=${POSTGRES_DB} sslmode=disable"
+  dir: migrations
